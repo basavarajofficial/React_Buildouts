@@ -49,9 +49,7 @@ function Timer() {
             <button onClick={start} >start</button>
 
         }
-        
         <button onClick={reset}>reset</button>
-
     </div>
   )
 }

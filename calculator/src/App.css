@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container input{
+  width: 200px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.calc-layout{
+  width: 300px;
+  margin: auto auto;
+  
+}
+.calc-layout button{
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin: 3px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  box-shadow: 1px 2px 2px;
+  font-size: 19px;
+  font-weight: 600;
+}

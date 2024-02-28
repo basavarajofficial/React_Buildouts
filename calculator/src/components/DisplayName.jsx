@@ -1,6 +1,6 @@
 import { useState} from 'react';
 
-function Form() {
+function DisplayName() {
     // const [formData, setFormData] = useState({});
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -37,4 +37,4 @@ function Form() {
   )
 }
 
-export default Form
+export default DisplayName;

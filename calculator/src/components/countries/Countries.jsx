@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
 import axios from "axios";
 import FlagsCard from "./FlagsCard";
+import './countries.css';
 
 
-function Home() {
+function Countries() {
 
     const [flags, setFlags] = useState([]);
 
@@ -25,7 +26,7 @@ function Home() {
     <div className="home-layout">
         {
             flags && flags.map((flag) => (
-                <div key={flag.flag} >
+                <div key={flag.flag} className="cards" >
                     <FlagsCard  flag={flag}  />
                 </div>
             ))
@@ -34,4 +35,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Countries

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function Timer() {
+function StopWatch() {
     // let [milliseconds, setMilliseconds] = useState(0);
     let [seconds, setSeconds] = useState(0);
     let [minutes, setMinutes] = useState(0);
@@ -54,4 +54,4 @@ function Timer() {
   )
 }
 
-export default Timer
+export default StopWatch
